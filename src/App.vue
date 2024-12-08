@@ -21,7 +21,7 @@
 <script setup>
 import { ref } from "vue";
 // 生命PDF url 地址
-const pdfUrl = ref("http://192.168.1.6:3005/http.pdf");
+const pdfUrl = ref("https://wannianqing.github.io/office-tools/dist/Koa%E5%9F%BA%E7%A1%80%E6%8B%9B%E5%BC%8F.pdf");
 
 // 上传本地PDF文件
 const handleChange = (event) => {
@@ -30,7 +30,7 @@ const handleChange = (event) => {
   pdfUrl.value = url;
 };
 
-const inputValue = ref("http://192.168.1.6:3005/http.pdf");
+const inputValue = ref("https://wannianqing.github.io/office-tools/dist/Koa%E5%9F%BA%E7%A1%80%E6%8B%9B%E5%BC%8F.pdf");
 
 const handleInput = (event) => {
   inputValue.value = event.target.value;
