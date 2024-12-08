@@ -1,6 +1,6 @@
 const { defineConfig } = require("@vue/cli-service");
 module.exports = defineConfig({
-  publicPath: '/office-tools/',
+  publicPath: '/office-tools/dist/',
   transpileDependencies: true,
   assetsDir:'',
   chainWebpack: (config) => {
